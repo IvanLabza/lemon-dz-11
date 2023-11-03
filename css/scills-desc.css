@@ -1,0 +1,16 @@
+@media screen and (min-width:1200px){
+.skills {}
+
+    .skills-title {
+        margin-bottom: 40px;
+    }
+
+    .skills-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .skills-text {
+        margin-bottom: 40px;
+    }
+    
+}

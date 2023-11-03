@@ -1,0 +1,17 @@
+@media screen and (min-width : 1200px) {
+    .contact {
+        padding: 70px 0 250px 0;
+    }
+
+
+
+
+    .contact-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .contact-link {
+        margin-bottom: 20px;
+    }
+
+}

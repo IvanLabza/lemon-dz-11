@@ -1,0 +1,251 @@
+.grid-cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+        "head"
+        "hero"
+        "projeckt"
+        "ftr"
+
+}
+
+
+.head {
+    grid-area: head;
+}
+
+.conteiner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero {
+    grid-area: hero;
+}
+
+.projeckt {
+    grid-area: projeckt;
+}
+
+.ftr {
+    grid-area: ftr;
+}
+
+.head {
+    background-color: #171718;
+    padding: 10px 0;
+}
+
+
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.head-menu-svg-close {
+    fill: aliceblue;
+    display: block;
+}
+
+.head-logo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.head-logo span {
+    font-weight: 700;
+}
+
+.list-wrapper.is-open {
+    transform: translateY(0);
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+}
+
+
+.list-wrapper {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--write-title);
+    z-index: 20;
+    transform: translateY(-100%);
+    transition: transform 250ms ease-in-out;
+    background-color: #000;
+}
+
+.is-open {
+    visibility: visible;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+    overflow: scroll;
+}
+
+.head-tel-menu-close {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.head-list-link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    translate: all 0.25s ease-in-out;
+}
+
+.head-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.hero {
+    padding: 35px 0 45px;
+    background-color: #171718;
+    background-image: url(../img/Abstract.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.head-list-link:is(:hover,:focus){
+    color:orange;
+}
+
+.hero-title {
+    color: #FAFAFA;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+.hero-title span {
+    color: #5C62EC;
+}
+
+.hero-title div {
+
+    font-size: 30px;
+}
+
+.hero-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+}
+
+.hero-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    border-radius: 5px;
+    border-color: #5C62EC;
+    background-color: #5C62EC;
+    margin-top: 10px;
+    outline: transparent;
+    translate: all 1500ms ease-in-out;
+}
+
+.hero-btn:is(:hover,:focus){
+    background-color: blue;
+    
+}
+
+.projeckt {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.projeckt-title {
+    color: #5C62EC;
+
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 78px */
+    letter-spacing: -0.5px;
+}
+
+.projeckt-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-list-item {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+
+
+.projeckt-list-title {
+    padding: 15px 25px 20px;
+    text-align: center;
+}
+
+.ftr {
+    background: #171718;
+    padding: 25px 0;
+}
+
+.ftr-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.ftr-text {
+    margin-top: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}

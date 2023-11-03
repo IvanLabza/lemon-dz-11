@@ -1,0 +1,35 @@
+.skills {
+    padding-top: 90px;
+    padding-bottom: 322px;
+    text-align: center;
+}
+
+.skills-title {
+    color: #5C62EC;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.5px;
+
+}
+
+.skills-subtitle {
+    color: #171718;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.5px;
+    margin-top: 15px;
+}
+
+.skills-text {
+    color: #171718;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    margin-top: 25px;
+}
